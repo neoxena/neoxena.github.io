@@ -1,8 +1,13 @@
 Gemfile.lock
 .obsidian
+<<<<<<< HEAD
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 _site
 tags
 vendor
+=======
+_site
+tags
+>>>>>>> 06c3911 (First post!)

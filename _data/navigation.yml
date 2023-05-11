@@ -1,5 +1,6 @@
 # main links
 main:
+<<<<<<< HEAD
   - title: "Posts"
     url: /posts/
   - title: "Categories"
@@ -8,3 +9,11 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+=======
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+>>>>>>> 06c3911 (First post!)

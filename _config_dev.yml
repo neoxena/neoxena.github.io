@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 remote_theme: null
 theme: minimal-mistakes-jekyll
+=======
+theme: minimal-mistakes-jekyll
+remote_theme: null
+>>>>>>> 06c3911 (First post!)
