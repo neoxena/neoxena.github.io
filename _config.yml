@@ -18,12 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-<<<<<<< HEAD
-title: neoXena
-=======
 title: neoXena.dev
 logo: /assets/images/neoxena-logo-v2-170x42.png
->>>>>>> 06c3911 (First post!)
 email: michael.cahill@neoxena.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Hirundo neoxena -- welcome swallow.
@@ -34,14 +30,10 @@ github: [metadata]
 github_username:  neoxena
 
 minimal_mistakes_skin: default
-<<<<<<< HEAD
-search: false
-=======
 search: true
 
 lunr:
   search_within_pages: true
->>>>>>> 06c3911 (First post!)
 
 # Build settings
 markdown: kramdown
@@ -65,19 +57,6 @@ include:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-<<<<<<< HEAD
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-=======
 exclude:
 #   - .sass-cache/
   - .jekyll-cache/
@@ -87,7 +66,6 @@ exclude:
 #   - node_modules/
   - vendor
   - .obsidian
->>>>>>> 06c3911 (First post!)
 
 plugins:
   - jekyll-paginate
@@ -100,17 +78,10 @@ plugins:
 author:
   name: "Michael Cahill"
   avatar: "/assets/images/mjc-small.jpg"
-<<<<<<< HEAD
-  bio: "Plumber of bits"
-  links:
-    - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
-=======
   bio: "Two bit plumber"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
->>>>>>> 06c3911 (First post!)
       url: "https://www.linkedin.com/in/michaeljcahill/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -119,11 +90,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-<<<<<<< HEAD
-      icon: "fas fa-fw fa-linkedin"
-=======
       icon: "fab fa-fw fa-linkedin"
->>>>>>> 06c3911 (First post!)
       url: "https://www.linkedin.com/in/michaeljcahill/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -139,10 +106,7 @@ defaults:
       layout: single
       author_profile: false
       related: true
-<<<<<<< HEAD
-=======
       share: true
->>>>>>> 06c3911 (First post!)
   # _pages
   - scope:
       path: "_pages"
@@ -154,12 +118,9 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
-<<<<<<< HEAD
-=======
 posts_archive:
   type: liquid
   path: /posts/
->>>>>>> 06c3911 (First post!)
 tag_archive:
   type: liquid
   path: /tags/
