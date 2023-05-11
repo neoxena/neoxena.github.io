@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: neoXena
+title: neoXena.dev
+logo: /assets/images/neoxena-logo-v2-170x42.png
 email: michael.cahill@neoxena.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Hirundo neoxena -- welcome swallow.
@@ -29,7 +30,10 @@ github: [metadata]
 github_username:  neoxena
 
 minimal_mistakes_skin: default
-search: false
+search: true
+
+lunr:
+  search_within_pages: true
 
 # Build settings
 markdown: kramdown
@@ -53,17 +57,15 @@ include:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
-#   - .jekyll-cache/
+  - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - vendor
+  - .obsidian
 
 plugins:
   - jekyll-paginate
@@ -76,10 +78,10 @@ plugins:
 author:
   name: "Michael Cahill"
   avatar: "/assets/images/mjc-small.jpg"
-  bio: "Plumber of bits"
+  bio: "Two bit plumber"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/michaeljcahill/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -88,7 +90,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/michaeljcahill/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -104,6 +106,7 @@ defaults:
       layout: single
       author_profile: false
       related: true
+      share: true
   # _pages
   - scope:
       path: "_pages"
@@ -115,6 +118,9 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
+posts_archive:
+  type: liquid
+  path: /posts/
 tag_archive:
   type: liquid
   path: /tags/

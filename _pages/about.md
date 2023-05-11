@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 Dr. Michael Cahill was Vice President of Labs at MongoDB until April 2023, responsible for fostering innovative solutions to problems faced by MongoDB customers.  He was a founder and architect at startup WiredTiger then VP Engineering for Storage at MongoDB.  He was an architect of Berkeley DB at Sleepycat Software and Oracle, responsible for design and implementation of multi-version concurrency control.
